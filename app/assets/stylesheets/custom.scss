@@ -1,0 +1,47 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+/* ヘッダー部分*/
+.header {
+  height: 115px;
+  border-bottom: 2px solid #dddddd;
+}
+
+.header-left {
+  float: left;
+  line-height: 100px;
+  padding-left: 30px;
+}
+
+.header-right {
+  float: right;
+  color: #808080;
+}
+.login {
+  font-size: 20px;
+}
+.menuu  {
+  display: inline-block;
+  font-size: 20px;
+  padding: 30px 60px ;
+}
+.menu {
+  padding: 50px 50px 50px 50px;
+}
+.menu_up {
+  margin-bottom: 10px;
+}
+
+
+.hedimage {
+  padding: 180px 0 100px 0;
+  background-image: url("IMG_0690.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+}
+.contain {
+  color: white;
+}
